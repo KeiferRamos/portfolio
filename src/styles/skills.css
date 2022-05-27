@@ -1,0 +1,61 @@
+.skills > div {
+  height: calc(100vh - 100px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 50px 15px;
+  background: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000);
+  background-position: center;
+  overflow: scroll;
+}
+
+.skills-container {
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  background: #fff;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.skills-container > h1 {
+  font-size: 40px;
+  width: 150px;
+  height: 150px;
+  display: grid;
+  place-items: center;
+  background: #afcfde;
+  border-radius: 5px;
+}
+
+.skills-container > img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.percent-holder {
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 20px;
+  background-color: #93b7c8;
+  position: relative;
+}
+
+.percent {
+  background: #3b7591;
+  height: 30px;
+  border-radius: 20px;
+}
+
+.percent-holder > .value {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  color: #fff;
+}
