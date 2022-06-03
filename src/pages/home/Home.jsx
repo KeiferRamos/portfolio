@@ -1,25 +1,27 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import contacts from "../../helper/data/contacts";
 import "../../styles/home.css";
 
 function Home() {
   const [index, setIndex] = useState(0);
+  const navigate = useNavigate();
 
   return (
     <div className="home">
       <div>
         <div className="about-me">
-          <img
-            src="https://cdn.now.howstuffworks.com/media-content/0b7f4e9b-f59c-4024-9f06-b3dc12850ab7-1920-1080.jpg"
-            alt=""
-          />
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Perspiciatis vero qui, sequi quia explicabo, facilis consequatur
-            voluptatum voluptas commodi, quae nostrum velit? Maiores facilis
-            neque obcaecati exercitationem ratione quidem harum quae dolorem.
-          </p>
-          <button>KNOW MORE</button>
+          <img src={require("../../picture/profile.png")} alt="" />
+          <div>
+            <h1> Hello world!</h1>
+            <h3>Keifer Ramos is my name.</h3>
+            <p>
+              Thank you for taking the time to look over my portfolio. This
+              portfolio was created to demonstrate my abilities. This portfolio
+              contains my most successful projects, so be sure to check it out.
+            </p>
+          </div>
+          <button onClick={() => navigate("/projects")}>Click here</button>
         </div>
         <div className="contacts">
           <div className="logo-container">

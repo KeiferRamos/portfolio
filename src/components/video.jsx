@@ -11,21 +11,15 @@ function Video({
   source: { server, client },
   tools,
 }) {
-  const [isplaying, setIsplaying] = useState(false);
   const [isfullScreen, setisfullScreen] = useState(false);
-
-  const playVideo = () => setIsplaying(!isplaying);
 
   const setFullScreen = () => setisfullScreen(!isfullScreen);
 
   return (
     <div className="project-info">
       <div className={`${isfullScreen && "fullscreen"} video-holder`}>
-        <ReactPlayer url={link} width="100%" height="90%" playing={isplaying} />
+        <ReactPlayer url={link} width="100%" height="90%" />
         <div className="btn-holder">
-          <div onClick={() => playVideo()}>
-            {isplaying ? <BsPauseFill /> : <BiRightArrow />}
-          </div>
           <BiFullscreen onClick={() => setFullScreen()} />
         </div>
       </div>

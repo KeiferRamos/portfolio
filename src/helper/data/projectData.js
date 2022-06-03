@@ -8,7 +8,7 @@ export default [
     applink: "https://keiferramos.github.io/Converter/",
     title: "programming calculator",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse explicabo aspernatur consectetur alias consequuntur quaerat atque voluptates, corrupti quis possimus",
+      "This is a converter for binary numbers. Multiple binary numbers can be converted, for example, from binary to hexadecimal, decimal to octal, and so on.",
     tools: [<SiJavascript />, <DiHtml5 />, <DiCss3 />],
     source: {
       client: "https://github.com/KeiferRamos/Converter",
@@ -20,7 +20,7 @@ export default [
     applink: null,
     title: "Mern stack ecommerce",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse explicabo aspernatur consectetur alias consequuntur quaerat atque voluptates, corrupti quis possimus",
+      "This is a fully responsive ecommerce website that was built from the scratch. Look through a wide range of different gadgets and brands.",
     source: {
       client: "https://github.com/KeiferRamos/MernEcommerceClient",
       server: "https://github.com/KeiferRamos/MernEcommerceServer",
@@ -32,7 +32,7 @@ export default [
     applink: "https://keiferramos.github.io/combinewords/",
     title: "Combine words game",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse explicabo aspernatur consectetur alias consequuntur quaerat atque voluptates, corrupti quis possimus",
+      "This is a game in which you must combine two images. To solve the mystery word, choose a character from the list.",
     source: {
       client: "https://github.com/KeiferRamos/combinewords",
       server: null,
@@ -40,14 +40,14 @@ export default [
     tools: [<DiReact />, <SiRedux />],
   },
   {
-    link: "https://www.youtube.com/watch?v=f8tQKfCnyOo",
-    applink: "https://keiferramos.github.io/QuizGame/",
-    title: "Quiz game",
+    link: "https://youtu.be/WOTwnEVl0f4",
+    applink: "https://keiferramos.github.io/react-recipe-app/",
+    title: "Recipe App",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse explicabo aspernatur consectetur alias consequuntur quaerat atque voluptates, corrupti quis possimus",
-    tools: [<DiReact />],
+      "Spoonacular Api was used to make this. Look through a variety of various recipes and save your favorites.",
+    tools: [<DiReact />, <SiRedux />],
     source: {
-      client: "https://github.com/KeiferRamos/QuizGame",
+      client: "https://github.com/KeiferRamos/react-recipe-app",
       server: null,
     },
   },
