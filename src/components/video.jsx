@@ -37,11 +37,17 @@ function Video({
           <h3>source code</h3>
           {server && (
             <>
-              server:<a href={server}> {server}</a>
+              server:
+              <a href={server} target="_blank">
+                {server}
+              </a>
             </>
           )}
           <br />
-          client:<a href={client}> {client}</a>
+          client:
+          <a href={client} target="_blank">
+            {client}
+          </a>
         </div>
         <h3>Tools</h3>
         <div className="tools">
