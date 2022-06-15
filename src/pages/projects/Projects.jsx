@@ -1,6 +1,6 @@
 import React from "react";
 import "../../styles/projects.css";
-import projectData from "../../helper/data/projectData";
+import projectData from "../../data/projectData";
 import Video from "../../components/video";
 
 function Projects() {

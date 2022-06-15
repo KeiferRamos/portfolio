@@ -39,4 +39,10 @@ export default [
       "https://icons-for-free.com/download-icon-install+javascript+js+node+npm+tools+icon-1320165731324625592_512.png",
     percent: "60%",
   },
+  {
+    name: "TYPESCRIPT",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/640px-Typescript_logo_2020.svg.png",
+    percent: "60%",
+  },
 ];

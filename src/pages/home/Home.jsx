@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import contacts from "../../helper/data/contacts";
+import contacts from "../../data/contacts";
 import "../../styles/home.css";
+import message from "../../data/message";
 
 function Home() {
   const [index, setIndex] = useState(0);
@@ -13,15 +14,9 @@ function Home() {
         <div className="about-me">
           <img src={require("../../picture/profile.png")} alt="" />
           <div>
-            <h1> Hello world!</h1>
-            <h3>Keifer Ramos is my name.</h3>
-            <p>
-              Thank you for taking the time to look over my portfolio. This
-              portfolio was created to demonstrate my abilities. This portfolio
-              contains my most successful projects, so be sure to check it out.
-            </p>
+            <h1>{message.title}</h1>
+            <p>{message.details}</p>
           </div>
-          <button onClick={() => navigate("/projects")}>Click here</button>
         </div>
         <div className="contacts">
           <div className="logo-container">

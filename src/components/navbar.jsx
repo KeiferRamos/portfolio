@@ -1,4 +1,4 @@
-import { links } from "../helper/data/navlinks";
+import { links } from "../data/navlinks";
 import "../styles/navbar.css";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router";
