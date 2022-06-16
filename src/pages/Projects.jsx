@@ -1,7 +1,7 @@
 import React from "react";
-import "../../styles/projects.css";
-import projectData from "../../data/projectData";
-import Video from "../../components/video";
+import "../styles/projects.css";
+import projectData from "../data/projectData";
+import Video from "../components/video";
 
 function Projects() {
   return (

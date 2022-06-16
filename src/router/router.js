@@ -1,8 +1,8 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Home from "../pages/home/Home";
-import Projects from "../pages/projects/Projects";
-import Tools from "../pages/tools/Tools";
+import Home from "../pages/Home";
+import Projects from "../pages/Projects";
+import Tools from "../pages/Tools";
 
 function Router() {
   return (
