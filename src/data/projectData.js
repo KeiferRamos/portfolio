@@ -1,17 +1,16 @@
-import { DiHtml5, DiCss3, DiReact } from "react-icons/di";
+import { DiHtml5, DiCss3, DiReact, DiSass } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
 import { SiMongodb, SiExpress, SiRedux, SiTypescript } from "react-icons/si";
 
 export default [
   {
-    link: "https://youtu.be/S-fquyAgXlM",
-    applink: "https://keiferramos.github.io/landing-page/",
+    link: "https://youtu.be/nJe63GIeU6A",
+    applink: "https://keiferramos.github.io/landing-page2/",
     title: "Landing Page",
-    description:
-      "Credits to John Smilga from coding Addict. I got this idea on one of his project. This is a simple landing page for my make up university",
-    tools: [<SiTypescript />, <DiHtml5 />, <DiCss3 />],
+    description: "Credits to Banan Digital Agency, I just clone there website.",
+    tools: [<SiTypescript />, <DiHtml5 />, <DiSass />],
     source: {
-      client: "https://github.com/KeiferRamos/landing-page",
+      client: "https://github.com/KeiferRamos/landing-page2",
       server: null,
     },
   },
