@@ -19,7 +19,8 @@ export default [
   },
   {
     name: "HTML",
-    image: "https://icon-library.com/images/html5-icon/html5-icon-13.jpg",
+    image:
+      "https://icons.iconarchive.com/icons/cornmanthe3rd/plex/256/Other-html-5-icon.png",
     percent: "70%",
   },
   {
@@ -44,5 +45,10 @@ export default [
     image:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/640px-Typescript_logo_2020.svg.png",
     percent: "60%",
+  },
+  {
+    name: "SASS",
+    image: "https://www.seekpng.com/png/detail/377-3772047_sass-logo.png",
+    percent: "80%",
   },
 ];
