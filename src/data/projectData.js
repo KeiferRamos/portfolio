@@ -1,6 +1,12 @@
-import { DiHtml5, DiCss3, DiReact, DiSass } from "react-icons/di";
+import { DiHtml5, DiPhp, DiReact, DiSass } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
-import { SiMongodb, SiExpress, SiRedux, SiTypescript } from "react-icons/si";
+import {
+  SiMongodb,
+  SiExpress,
+  SiRedux,
+  SiTypescript,
+  SiMysql,
+} from "react-icons/si";
 
 export default [
   {
@@ -47,6 +53,18 @@ export default [
     tools: [<DiReact />, <SiRedux />],
     source: {
       client: "https://github.com/KeiferRamos/react-recipe-app",
+      server: null,
+    },
+  },
+  {
+    link: "https://youtu.be/ZDb7INflZ80",
+    applink: null,
+    title: "MY CURRENT PROJECT",
+    description: `I'm currently working on this project right now while studying PHP and MySQL 
+      and this 50% done.`,
+    tools: [<DiPhp />, <SiMysql />],
+    source: {
+      client: "https://github.com/KeiferRamos/PHP-Ecommerce",
       server: null,
     },
   },
