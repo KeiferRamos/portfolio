@@ -60,8 +60,7 @@ export default [
     link: "https://youtu.be/ZDb7INflZ80",
     applink: null,
     title: "MY CURRENT PROJECT",
-    description: `I'm currently working on this project right now while studying PHP and MySQL 
-      and this 50% done.`,
+    description: `I'm half way through this project, which I'm working on while learning PHP and MySQL.`,
     tools: [<DiPhp />, <SiMysql />],
     source: {
       client: "https://github.com/KeiferRamos/PHP-Ecommerce",
